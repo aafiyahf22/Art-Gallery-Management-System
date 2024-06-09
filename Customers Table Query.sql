@@ -13,9 +13,9 @@ INSERT INTO Customers (
   CustomerID, CustomerName, Customers_Address, Customers_Preference, Customers_Feedback, Customers_Gmail, PurchaseHistory, Customer_Phone_No
 )
 VALUES
-(1, 'Ayesha Malik', '123 Liberty Market, Lahore', 'Realism', NULL, 'ayesha.malik@gallery.com', 'Oil painting of a village scene, Abstract composition', '+92 300 1234567'),
-(2, 'Ali Raza', '456 Clifton Block 5, Karachi', 'Abstract', NULL, 'ali.raza@gallery.com', 'Surrealistic artwork, Abstract expressionist artwork', '+92 321 9876543'),
-(3, 'Sara Khan', '789 F-11 Markaz, Islamabad', 'Miniature', NULL, 'sara.khan@gallery.com', 'Miniature painting, Calligraphic masterpiece', '+92 333 4567890'),
+(1, 'Aafiyah Najma', '123 Liberty Market, Lahore', 'Realism', NULL, 'ayesha.malik@gallery.com', 'Oil painting of a village scene, Abstract composition', '+92 300 1234567'),
+(2, 'Ayesha Usman', '456 Clifton Block 5, Karachi', 'Abstract', NULL, 'ali.raza@gallery.com', 'Surrealistic artwork, Abstract expressionist artwork', '+92 321 9876543'),
+(3, 'Eman Raza', '789 F-11 Markaz, Islamabad', 'Miniature', NULL, 'sara.khan@gallery.com', 'Miniature painting, Calligraphic masterpiece', '+92 333 4567890'),
 (4, 'Ahmed Mahmood', '12 Model Town, Lahore', 'Surrealism', NULL, 'ahmed.mahmood@gallery.com', 'Surrealistic depiction, Surrealistic artwork', '+92 321 8765432'),
 (5, 'Fatima Shah', '34 Gulshan-e-Iqbal, Karachi', 'Modern', NULL, 'fatima.shah@gallery.com', 'Modern piece, Contemporary artwork', '+92 345 6543210'),
 (6, 'Hassan Ali', '56 G-9 Markaz, Islamabad', 'Calligraphy', NULL, 'hassan.ali@gallery.com', 'Calligraphic masterpiece, Calligraphic artwork', '+92 333 9876543'),

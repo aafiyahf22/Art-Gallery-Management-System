@@ -33,7 +33,7 @@ VALUES
 (18, 'Hamza Malik', '167 Allama Iqbal Town, Lahore', 'Surrealism', NULL, 'hamza.malik@gallery.com', 'Surrealistic artwork, Surrealistic depiction', '+92 333 4567890'),
 (19, 'Sadia Khan', '178 G-11, Islamabad', 'Modern', NULL, 'sadia.khan@gallery.com', 'Contemporary artwork, Modern piece', '+92 321 8765432'),
 (20, 'Mehak Ali', '189 Model Town, Lahore', 'Calligraphy', NULL, 'mehak.ali@gallery.com', 'Calligraphic masterpiece, Calligraphic artwork', '+92 345 6543210'),
-(21, 'Ali Raza', '201 Gulshan-e-Maymar, Karachi', 'Realism', NULL, 'ali.raza@gallery.com', 'Realistic portrait, Realistic still life', '+92 333 4567890'),
+(21, 'Ali Raza', '201 Gulshan-e-Maymar, Karachi', 'Realism', NULL, 'aliraza@gallery.com', 'Realistic portrait, Realistic still life', '+92 333 4567890'),
 (22, 'Sana Khan', '213 DHA, Islamabad', 'Abstract', NULL, 'sana.khan@gallery.com', 'Abstract composition, Abstract artwork', '+92 321 2345678'),
 (23, 'Asad Mahmood', '224 Gulberg, Lahore', 'Surrealism', NULL, 'asad.mahmood@gallery.com', 'Surrealistic artwork, Surrealistic depiction', '+92 300 8765432'),
 (24, 'Zara Ahmed', '235 G-9, Islamabad', 'Modern', NULL, 'zara.ahmed@gallery.com', 'Contemporary artwork, Modern piece', '+92 321 6543210'),

@@ -1,10 +1,10 @@
-CREATE TABLE [Gallery] (
-  [GalleryID] int NOT NULL PRIMARY KEY,
-  [GalleryName] varchar(50) NOT NULL,
-  [Gallery_Operating_Hours] varchar(50) NOT NULL,
-  [Gallery_Location] varchar(100) NOT NULL,
-  [Contact_Info] varchar(50) NOT NULL,
-  [Area] varchar(50) NOT NULL
+CREATE TABLE Gallery (
+  GalleryID int NOT NULL PRIMARY KEY,
+  GalleryName varchar(50) NOT NULL,
+  Gallery_Operating_Hours varchar(50) NOT NULL,
+  Gallery_Location varchar(100) NOT NULL,
+  Contact_Info varchar(50) NOT NULL,
+  Area varchar(50) NOT NULL
 );
 INSERT INTO Gallery ( 
   GalleryID, GalleryName, Gallery_Operating_Hours, Gallery_Location, Contact_Info, Area

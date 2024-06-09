@@ -1,48 +1,65 @@
 # Art-Gallery-Management-System
 Database Management System Project _ 4th Semester Project _
 
-Introduction
-Project Overview
+INTRODUCTION:
+
+Project Overview:
+
 The Art Gallery Management System is designed to facilitate the management and operations of 
 an art gallery, providing functionalities for artists, artwork management, customer interactions, 
 exhibitions, sales, and marketing campaigns.
-Purpose
+
+Purpose:
+
 ● Facilitate the management and operations of an art gallery.
 ● Automate various tasks associated with artist management, artwork management, 
 customer interactions, exhibitions, sales, and marketing campaigns.
-Scope
+
+Scope:
+
  Artist Management:
+ 
  Registering artists.
  Storing contact information.
  Tracking artist profiles.
+
  Artwork Management:
+ 
  Cataloging artworks.
  Including details like title, medium, dimensions, and artist.
  Customer Management:
  Tracking customer interactions.
  Purchase history.
  Preferences.
+
  Exhibition Management:
+ 
  Organizing exhibitions.
  Managing loaned artworks.
  Scheduling events.
+
  Sales Management:
+ 
  Processing art sales.
  Generating invoices.
  Tracking revenue.
+
+
  Marketing Management:
  Creating and managing marketing campaigns to promote artists and artworks.
 Entities and Attributes
 Following are the entities and their attributes used in the “Art Gallery” database system.
  
- Artist 
+ Artist :
+ 
  Artist_ID (Primary Key)
  Artist_Name
  Artist_Gmail
  Famous_Artwork
  Phone_No
  ArtistBio
- Artwork
+ Artwork:
+ 
  Artwork_ID (Primary Key)
  Artist_ID
  Year
@@ -71,7 +88,8 @@ Following are the entities and their attributes used in the “Art Gallery” da
  Phone_No
  Customer_Feedback
  
- Exhibition
+ Exhibition:
+ 
  Exhibition_ID (Primary Key)
  Organizer
  Exhibition_History
@@ -82,18 +100,23 @@ Following are the entities and their attributes used in the “Art Gallery” da
  Exhibition_End_Date
  Exhibition_Location
  Customer_ID (Foreign Key)
- Exhibition_Art
+
+ Exhibition_Art:
+ 
  Exhibition_ID (Foreign Key)
  Customer_ID (Foreign Key)
  Art_Name
-Gallery
+
+Gallery:
  Gallery_ID (Primary Key)
  Gallery_Name
  Gallery_Operating_Hours
  Gallery_Location
  Contact_Info
  Area
-Gallery_Admin
+
+Gallery_Admin:
+
  Admin_ID (Primary Key)
  Admin_Name
  Login_ID
@@ -102,7 +125,9 @@ Gallery_Admin
  Artwork_ID (Foreign Key)
  CampaignID (Foreign Key)
  SalesID (Foreign Key)
-Staff
+
+Staff:
+
  Staff_ID (Primary Key)
  Staff_Name
  Staff_Address
@@ -110,7 +135,9 @@ Staff
  Job
  Gmail
  Salary
-Sales
+
+Sales:
+
  Sales_ID (Primary Key)
  Payment_Status
  Shipping_Details
@@ -129,26 +156,34 @@ Order_To_Buy
  Shipment_Address
  Order_ID (Primary Key)
  Order_Price
-Rent
+
+Rent:
+
  Rent_ID
  Rent_Price
  RentStartDate
  RentEndDate
  Customer_ID 
-Software Requirements
+
+
+SOFTWARE REQUIREMENTS:
 To develop and implement the Art Gallery Management System, the following software tools 
 and platforms are used:
 Database Design and Management Tool (Draw.io)
 A diagramming tool used to create Entity-Relationship (ER) diagrams, which helps in visually 
 representing the database structure. It is used for designing the database schema, defining tables, 
 relationships, and constraints.
+
 Database Management (XAMPP):
 XAMPP is an open-source cross-platform web server solution package that includes:
 ● Apache Server: To run the server-side of the application.
 ● MySQL: For managing the relational database.
 ● PHP: To handle server-side scripting.
 ● PhpMyAdmin: A web-based interface to manage MySQL databases and tables easily.
-System Architecture and Functionality
+
+
+SYATEM ARCHITECTURE AND FUNCTIONALITIES:
+
  Entities: The main entities in the ERD include Artist, Artwork, Customers, Exhibition, Gallery, 
 Gallery_Admin, Staff, Marketing Campaign, Order_To_Buy and Rent.
 Relationships:
@@ -204,7 +239,10 @@ Many).
 12. Rent
  Customers can rent many Artworks, and each Artwork can be rented by many Customers 
 (Many to Many).
-Data Anomalies
+
+
+DATA ANOMALIES:
+
 Artist Table Anomalies:
  Duplicate PhoneNo: 
 Set PhoneNo of ArtistID 1 to '0332-9876543', duplicating an existing phone number.
@@ -256,10 +294,7 @@ Set StaffPhoneNo of Staff_ID 2 to '0000-0000000', introducing an invalid phone n
 
 
 
-
-
-
-Conclusion
+CONCLUSION:
 The Art Gallery Management System provides a comprehensive platform for 
 managing all aspects of an art gallery, from artist registration to customer sales. By 
 integrating functionalities for artwork management, exhibitions, customer 

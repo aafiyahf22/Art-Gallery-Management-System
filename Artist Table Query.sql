@@ -1,11 +1,11 @@
 CREATE TABLE Artist (
-    [Artist_ID] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
-    [Artist_Name] NVARCHAR(255) NOT NULL,
-    [Artist_Address] NVARCHAR(255) NOT NULL,
-    [Artist_Gmail] NVARCHAR(255) NOT NULL,
-    [Artist_Art_Style] NVARCHAR(255) NOT NULL,
-    [Artist_Phone_No] NVARCHAR(255) NOT NULL,
-    [ArtistBio] NVARCHAR(MAX) NULL
+    Artist_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    Artist_Name NVARCHAR(255) NOT NULL,
+    Artist_Address NVARCHAR(255) NOT NULL,
+    Artist_Gmail NVARCHAR(255) NOT NULL,
+    Artist_Art_Style NVARCHAR(255) NOT NULL,
+    Artist_Phone_No NVARCHAR(255) NOT NULL,
+    ArtistBio NVARCHAR(MAX) NULL
 );
 INSERT INTO Artist (Artist_Name, Artist_Address, Artist_Gmail, Artist_Art_Style, Artist_Phone_No, ArtistBio)
 VALUES
